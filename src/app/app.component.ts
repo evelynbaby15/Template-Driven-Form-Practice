@@ -61,5 +61,7 @@ export class AppComponent implements OnInit {
     this.userResponse.gender = this.myForm.value.gender;
     this.userResponse.secretQuestion = this.myForm.value.ssssecret;
     this.userResponse.answer = this.myForm.value.guestionAnswer;
+
+    this.myForm.reset();
   }
 }
